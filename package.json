@@ -1,0 +1,19 @@
+{
+  "name": "keystone-watch-on-start",
+  "version": "1.0.0",
+  "description": "Automatically trigger watch updates on Model initialization.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onenorth/keystone-watch-on-start.git"
+  },
+  "author": "Ryan Haskell-Glatz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onenorth/keystone-watch-on-start/issues"
+  },
+  "homepage": "https://github.com/onenorth/keystone-watch-on-start#readme"
+}

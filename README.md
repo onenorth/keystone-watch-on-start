@@ -13,7 +13,7 @@ This plugin enables watch events to trigger when a KeystoneJS model is initializ
 
 This is useful when you want to create a computed KeystoneJS field value on save, but you have existing items in your database.
 
-For example, adding in a `slug` after creating 4 items originally required us to manually save those 4 items to generate the `slug`.
+For example, adding in a `slug` after creating 4 items requires us to manually save those 4 items to generate the `slug` value.
 
 Not anymore, my dudes!
 
@@ -21,13 +21,13 @@ Not anymore, my dudes!
 ### Example Usage
 
 
-__`HomepageSettings.js`__
+__`Person.js`__
 
 ```js
 const keystone = require('keystone')
 
 // 1. Include the `watchOnStart` option
-const List = keystone.List('HomepageSettings', {
+const List = keystone.List('Person', {
   watchOnStart: true
 })
 
